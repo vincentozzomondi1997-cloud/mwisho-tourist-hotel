@@ -1,0 +1,35 @@
+MWISHO TOURIST HOTEL WEBSITE
+HOW TO UPDATE THE GALLERY
+
+The website is designed so you can update the gallery without rebuilding the whole website.
+
+WHAT YOU NEED
+- The website folder/files.
+- The new photo(s).
+- A file manager or hosting file manager that lets you upload files.
+
+TO ADD A NEW PHOTO
+1. Rename the photo to a simple name, for example: wedding-2026.jpg
+2. Upload/copy the photo into the SAME folder as index.html.
+3. Open the file called gallery-data.js.
+4. Copy an existing gallery line, for example:
+   {file:'hotel-grounds-1.jpg', alt:'Mwisho Tourist Hotel grounds', caption:'Hotel grounds'},
+5. Change it to your new photo, for example:
+   {file:'wedding-2026.jpg', alt:'Wedding event at Mwisho Tourist Hotel', caption:'Wedding event - 2026'},
+6. Save gallery-data.js.
+7. Upload/replace gallery-data.js on your website if you are using a hosting service.
+8. Refresh the website. The new photo will appear in the Gallery.
+
+TO REMOVE A PHOTO
+- Delete that photo's line from gallery-data.js.
+- You can also delete the image file if you no longer need it.
+
+IMPORTANT
+- The filename in gallery-data.js must exactly match the uploaded filename, including .jpg/.png/.webp.
+- Do not delete index.html, gallery-data.js, logo.jpg or the other website files unless you know what they do.
+- Keep image file names simple: use letters, numbers and hyphens. Example: birthday-party-2026.jpg
+
+MOBILE UPDATE
+If your website host provides a File Manager in its hosting dashboard, you can do the same steps from your phone: upload the new image, edit gallery-data.js, save, then refresh the website.
+
+The conference quotation section already supports 1 to 4 dates and lets customers choose WhatsApp or email. Conference prices are deliberately not published because packages are customizable and negotiable.

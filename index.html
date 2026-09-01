@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mwisho Tourist Hotel | Siaya, Kenya</title>
+<meta name="description" content="Mwisho Tourist Hotel in Siaya Town — accommodation, meals, conference facilities, events and ground hire, transport, bar and relaxation.">
+<style>
+:root{--wine:#3a1730;--pink:#9b185e;--gold:#d7ad3f;--cream:#fbf7f2;--ink:#29232a;--muted:#70656d;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--cream);color:var(--ink);line-height:1.65}
+a{text-decoration:none}.top{background:var(--wine);color:#fff;text-align:center;padding:8px 5%;font-size:13px}.top a{color:#f3d77b}
+nav{position:sticky;top:0;z-index:20;background:rgba(58,23,48,.97);color:#fff;display:flex;align-items:center;justify-content:space-between;padding:14px 6%;box-shadow:0 4px 18px rgba(0,0,0,.12)}
+.logo{font-weight:900;letter-spacing:.7px;font-size:18px}.logo span{color:#f0cf68}nav .links a{color:#fff;margin-left:20px;font-size:14px}
+.hero{min-height:78vh;background:linear-gradient(90deg,rgba(34,11,28,.82),rgba(34,11,28,.28)),url('hero.jpg') center/cover;display:flex;align-items:center;padding:100px 7%;color:#fff}
+.hero-copy{max-width:760px}.eyebrow{color:#f2d36f;font-weight:800;letter-spacing:2px;text-transform:uppercase;font-size:13px}
+h1{font-size:clamp(42px,7vw,78px);line-height:1.02;margin:12px 0}.hero p{font-size:20px;max-width:690px}
+.btn{display:inline-block;background:var(--gold);color:#28121f;font-weight:800;padding:13px 22px;border-radius:30px;margin:7px 8px 0 0}.btn.alt{background:#fff;color:var(--pink)}
+section{padding:78px 7%}.section-head{text-align:center;max-width:760px;margin:0 auto 42px}.section-head h2{font-size:38px;line-height:1.15;color:var(--wine);margin:0 0 8px}.section-head p{color:var(--muted)}
+.intro{display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center}.intro img{width:100%;border-radius:22px;box-shadow:0 18px 45px rgba(50,20,40,.13)}
+.kicker{color:var(--pink);font-weight:900;letter-spacing:1px}.intro h2{font-size:40px;line-height:1.15;color:var(--wine)}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}.card{background:#fff;border-radius:18px;overflow:hidden;box-shadow:0 10px 32px rgba(45,25,35,.09)}.card img{width:100%;height:210px;object-fit:cover}.card .pad{padding:19px}.card h3{color:var(--pink);margin:0 0 6px}
+.facilities{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.facility{background:#fff;padding:22px;border-radius:15px;border-top:4px solid var(--gold);box-shadow:0 7px 25px rgba(45,25,35,.06)}.facility b{color:var(--pink);display:block;margin-bottom:4px}
+.rate-wrap{overflow:auto;background:#fff;border-radius:18px;box-shadow:0 10px 32px rgba(45,25,35,.08)}table{width:100%;border-collapse:collapse;min-width:720px}th,td{padding:16px;border-bottom:1px solid #eee;text-align:left}th{background:var(--wine);color:#fff}tr:last-child td{border-bottom:0}.note{color:var(--muted);font-size:14px;margin-top:14px}
+.feature-band{background:var(--wine);color:#fff}.feature-band h2{color:#fff}.feature-band .section-head p{color:#ddd}.gallery{columns:3 260px;column-gap:16px}.gallery figure{break-inside:avoid;margin:0 0 16px;background:#fff;border-radius:15px;overflow:hidden;box-shadow:0 8px 24px rgba(40,20,30,.08)}.gallery img{width:100%;display:block}.gallery figcaption{padding:9px 12px;color:#665b63;font-size:13px}.gallery-help{margin:20px auto 0;max-width:760px;text-align:center;color:#665b63;font-size:14px}
+.contact{background:#26101f;color:#fff}.contact .section-head h2{color:#fff}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px}.contact-card{background:#3b1c32;padding:28px;border-radius:18px}.contact-card a{color:#f1d06d}.mapbox{min-height:100%;display:flex;flex-direction:column;justify-content:center}
+footer{background:#170b14;color:#cfc6cb;text-align:center;padding:24px;font-size:13px}
+@media(max-width:900px){.cards{grid-template-columns:repeat(2,1fr)}.facilities{grid-template-columns:1fr 1fr}.intro,.contact-grid{grid-template-columns:1fr}}
+@media(max-width:650px){nav{padding:12px 4%}.links{display:none}.hero{min-height:72vh;padding:90px 6%}.hero p{font-size:17px}section{padding:58px 5%}.intro h2,.section-head h2{font-size:31px}.cards,.facilities{grid-template-columns:1fr}.gallery{columns:2 170px}}
+
+.booking-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:start}
+.booking-box{background:#fff;padding:28px;border-radius:20px;box-shadow:0 10px 32px rgba(45,25,35,.08)}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+label{font-size:13px;font-weight:800;color:var(--wine);display:block;margin-bottom:5px}
+input,select,textarea{width:100%;padding:12px 13px;border:1px solid #ddd;border-radius:10px;background:#fff;font:inherit}
+textarea{min-height:110px;resize:vertical}.full{grid-column:1/-1}
+.menu-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.menu-card{background:#fff;border-radius:18px;padding:22px;border-top:4px solid var(--pink);box-shadow:0 8px 28px rgba(45,25,35,.07)}.menu-card h3{margin:0 0 8px;color:var(--pink)}.menu-card ul{margin:0;padding-left:20px}
+.map-frame{width:100%;height:360px;border:0;border-radius:18px}.small{font-size:13px;color:var(--muted)}
+@media(max-width:800px){.booking-grid{grid-template-columns:1fr}.menu-grid{grid-template-columns:1fr}.form-grid{grid-template-columns:1fr}.full{grid-column:auto}}
+
+.booking-summary{margin-top:18px;padding:16px;border-radius:12px;background:#fbf7f2;border:1px solid #eadfd5}
+.booking-summary strong{color:var(--pink)}.total{font-size:20px;color:var(--wine);font-weight:900}
+</style>
+<style>
+.package-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.package{background:#fff;border-radius:18px;padding:22px;border-top:4px solid var(--gold);box-shadow:0 8px 28px rgba(45,25,35,.07);display:flex;flex-direction:column}.package h3{margin:0 0 7px;color:var(--pink)}.package p,.package li{font-size:14px;color:var(--muted)}.package ul{padding-left:20px;margin:8px 0 18px}.package .btn{margin-top:auto;text-align:center}.quote-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px}.quote-box{background:#fff;padding:28px;border-radius:20px;box-shadow:0 10px 32px rgba(45,25,35,.08)}.quote-form{display:grid;grid-template-columns:1fr 1fr;gap:14px}.quote-form .full{grid-column:1/-1}.quote-box label{display:block;font-size:13px;font-weight:800;color:var(--wine);margin-bottom:5px}.quote-box input,.quote-box select,.quote-box textarea{width:100%;padding:12px;border:1px solid #ddd;border-radius:10px;font:inherit}.quote-box textarea{min-height:110px}.quote-box .btn{border:0;cursor:pointer}@media(max-width:1000px){.package-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:650px){.package-grid,.quote-grid{grid-template-columns:1fr}.quote-form{grid-template-columns:1fr}.quote-form .full{grid-column:auto}}
+</style><style>
+.logo{display:flex;align-items:center;text-decoration:none}.logo img{height:58px;width:auto;max-width:250px;object-fit:contain;border-radius:4px}.logo span{color:#f1cf67}
+.quote-form{grid-template-columns:1fr 1fr}.date-list{display:grid;grid-template-columns:1fr 1fr;gap:10px}.date-list input{min-width:0}
+.contact-choice{display:flex;gap:10px;flex-wrap:wrap;margin:8px 0 16px}.contact-choice button{flex:1;min-width:180px}
+.quote-note{background:#fff8fb;border-left:4px solid var(--pink);padding:12px 15px;border-radius:8px;margin-bottom:15px}
+@media(max-width:650px){.logo img{height:50px}.date-list{grid-template-columns:1fr}.quote-form{grid-template-columns:1fr}}
+</style></head>
+<body id="top">
+<div class="top">Siaya Town • Opposite Shell Petrol Station • <a href="tel:+254745396385">+254 745 396 385</a> • Open 24/7</div>
+
+<nav>
+  <a class="logo" href="#top" aria-label="Mwisho Tourist Hotel home"><img src="logo.jpg" alt="Mwisho Tourist Hotel logo"></a>
+  <div class="links"><a href="#about">About</a><a href="#rooms">Rooms</a><a href="#booking">Book</a><a href="#facilities">Facilities</a><a href="#menu">Menu</a><a href="#conference">Conference</a><a href="#events">Events</a><a href="#transport">Transport</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a></div>
+</nav>
+
+<header class="hero">
+  <div class="hero-copy">
+    <div class="eyebrow">Taste Of Class • Siaya, Kenya</div>
+    <h1>Stay. Dine. Meet. Relax.</h1>
+    <p>A welcoming hotel in Siaya Town offering comfortable accommodation, meals, conference facilities, drinks and a relaxed place to unwind.</p>
+    <a class="btn" href="#rooms">View Rooms & Rates</a>
+    <a class="btn alt" href="tel:+254745396385">Call to Book</a>
+  </div>
+</header>
+
+<section id="about">
+  <div class="intro">
+    <div>
+      <div class="kicker">WELCOME TO MWISHO</div>
+      <h2>Hospitality designed around your stay.</h2>
+      <p>Mwisho Tourist Hotel is conveniently located in Siaya Town, opposite Shell Petrol Station along the Kisumu–Luanda–Siaya Road.</p>
+      <p>Whether you are travelling through Siaya, attending a meeting, planning a function, enjoying a meal or simply looking for a comfortable place to relax, we are ready to welcome you.</p>
+      <a class="btn" href="#contact">Make an Enquiry</a>
+    </div>
+    <img src="exterior.jpg" alt="Mwisho Tourist Hotel exterior">
+  </div>
+</section>
+
+<section>
+  <div class="section-head"><h2>Explore Mwisho</h2><p>Comfortable spaces for guests, meetings, meals and relaxation.</p></div>
+  <div class="cards">
+    <article class="card"><img src="room-vip.jpg" alt="VIP room"><div class="pad"><h3>Accommodation</h3><p>Choose from regular and VIP room categories for different stay preferences.</p></div></article>
+    <article class="card"><img src="restaurant.jpg" alt="Restaurant and function space"><div class="pad"><h3>Meals & Functions</h3><p>Dining and function space suitable for meetings, gatherings and celebrations.</p></div></article>
+    <article class="card"><img src="bar.jpg" alt="Hotel bar"><div class="pad"><h3>Bar</h3><p>A stocked bar for guests and visitors looking to relax and socialize.</p></div></article>
+    <article class="card"><img src="lounge.jpg" alt="Hotel lounge"><div class="pad"><h3>Lounge</h3><p>A comfortable setting to sit, meet and unwind.</p></div></article>
+  </div>
+</section>
+
+
+<section id="events" class="feature-band">
+  <div class="section-head"><h2>Events & Ground Hire</h2><p>Our spacious hotel grounds are available for social and corporate events, from live band entertainment and disco nights to weddings, birthdays, graduations and other celebrations.</p></div>
+  <div class="cards">
+    <article class="card"><img src="hotel-grounds-1.jpg" alt="Mwisho Tourist Hotel grounds during the day"><div class="pad"><h3>Spacious Event Grounds</h3><p>A flexible outdoor setting for social functions, celebrations and entertainment.</p></div></article>
+    <article class="card"><img src="hotel-grounds-2.jpg" alt="Mwisho Tourist Hotel grounds and surrounding facilities"><div class="pad"><h3>Functions & Celebrations</h3><p>Suitable for weddings, receptions, birthday parties, graduations, corporate functions and more.</p></div></article>
+    <article class="card"><img src="night-event.jpg" alt="Night event with live band entertainment"><div class="pad"><h3>Night Events</h3><p>Host live bands, disco nights and other evening social events in a lively outdoor atmosphere.</p></div></article>
+    <article class="card"><img src="hotel-van.jpg" alt="Mwisho Tourist Hotel van"><div class="pad"><h3>Transport Available</h3><p>Our hotel van and taxi services can support group travel, transfers, tours and event transport.</p></div></article>
+  </div>
+  <div style="text-align:center;margin-top:28px"><a class="btn" href="https://wa.me/254745396385?text=Hello%20Mwisho%20Tourist%20Hotel%2C%20I%20would%20like%20to%20enquire%20about%20event%20ground%20hire.">Enquire About Ground Hire</a><a class="btn alt" href="mailto:mwishotouristhotel@gmail.com?subject=Event%20Ground%20Hire%20Enquiry">Request by Email</a></div>
+</section>
+
+<section id="transport">
+  <div class="section-head"><h2>Hotel Van & Taxi Services</h2><p>Convenient transport options for individuals, groups, hotel guests and event clients.</p></div>
+  <div class="intro">
+    <div><div class="kicker">TRANSPORT SERVICES</div><h2>Travel with Mwisho</h2><p>We provide van and taxi services for group travel, transfers, tours and other transport needs. Contact us to discuss your trip or event requirements.</p><ul><li>Hotel van services for group travel</li><li>Airport and other transfers</li><li>Taxi services</li><li>Transport support for events and functions</li></ul><a class="btn" href="tel:+254745396385">Call for Transport</a><a class="btn alt" href="https://wa.me/254745396385?text=Hello%20Mwisho%20Tourist%20Hotel%2C%20I%20would%20like%20to%20enquire%20about%20your%20van%20or%20taxi%20services.">WhatsApp</a></div>
+    <img src="hotel-van.jpg" alt="Mwisho Tourist Hotel van service">
+  </div>
+</section>
+
+<section id="menu">
+  <div class="section-head">
+    <h2>Food & Drinks</h2>
+    <p>Enjoy meals and refreshments at Mwisho Tourist Hotel. Ask our team for today's menu and available specials.</p>
+  </div>
+  <div class="menu-grid">
+    <div class="menu-card"><h3>Breakfast</h3><ul><li>Breakfast options</li><li>Tea & coffee</li><li>Porridge and other morning choices</li></ul></div>
+    <div class="menu-card"><h3>Lunch & Dinner</h3><ul><li>Kenyan favourites</li><li>Beef, chicken & fish options</li><li>Rice, ugali and accompaniments</li></ul></div>
+    <div class="menu-card"><h3>Drinks & Refreshments</h3><ul><li>Soft drinks</li><li>Hot beverages</li><li>Bar drinks</li></ul></div>
+  </div>
+  <div style="text-align:center;margin-top:24px"><a class="btn" href="https://wa.me/254745396385?text=Hello%20Mwisho%20Tourist%20Hotel,%20please%20send%20me%20today's%20menu.">Request Today's Menu</a></div>
+</section>
+
+<section id="facilities">
+  <div class="section-head"><h2>Facilities & Services</h2><p>Practical amenities for both short stays and local functions.</p></div>
+  <div class="facilities">
+    <div class="facility"><b>Accommodation</b>Regular and VIP rooms for different budgets and preferences.</div>
+    <div class="facility"><b>Restaurant</b>On-site meals for breakfast, lunch and dinner.</div>
+    <div class="facility"><b>Conference & Functions</b>Space for meetings, gatherings and events.</div>
+    <div class="facility"><b>Wi‑Fi</b>Wi‑Fi access available for guests.</div>
+    <div class="facility"><b>Hot Showers</b>Hot shower facilities available.</div>
+    <div class="facility"><b>Secure Parking</b>Free secure parking for guests.</div>
+    <div class="facility"><b>Bar</b>Drinks and a social space for guests.</div>
+    <div class="facility"><b>Massage & Relaxation</b>Massage/relaxation facilities available.</div>
+    <div class="facility"><b>Open 24/7</b>Enquiries and guest service available around the clock.</div>
+  </div>
+</section>
+
+
+<section id="booking">
+  <div class="section-head">
+    <h2>Book a Room or Make an Enquiry</h2>
+    <p>Send your preferred dates and room category directly to the hotel on WhatsApp.</p>
+  </div>
+  <div class="booking-grid">
+    <div class="booking-box">
+      <form id="bookingForm">
+        <div class="form-grid">
+          <div><label>Your Name</label><input id="guestName" required placeholder="Full name"></div>
+          <div><label>Phone Number</label><input id="guestPhone" required placeholder="07xx xxx xxx"></div>
+          <div><label>Check-in</label><input id="checkin" type="date" required></div>
+          <div><label>Check-out</label><input id="checkout" type="date" required></div>
+          <div><label>Guests</label><select id="guests"><option>1</option><option selected>2</option><option>3</option><option>4</option><option>5+</option></select></div>
+          <div><label>Room Category</label><select id="room"><option>Regular Single</option><option>Regular Standard Double</option><option>VIP Standard</option><option>VIP Deluxe</option><option>VIP Executive</option><option>VIP Supreme</option></select></div>
+          <div class="full"><label>Additional Request</label><textarea id="request" placeholder="Breakfast, conference, early arrival, special request, etc."></textarea></div>
+        </div>
+        <button class="btn" type="submit" style="border:0;cursor:pointer">Send Booking Request on WhatsApp</button>
+        
+<div class="booking-summary" id="estimate">
+  <div><strong>Estimated stay:</strong> <span id="nights">0</span> night(s)</div>
+  <div class="total">Estimated room total: KSh <span id="roomTotal">0</span></div>
+  <div class="small">This is only an estimate based on the selected room and occupancy. The hotel confirms availability and final pricing.</div>
+</div>
+<p class="small">Your request is sent to the hotel for confirmation. Availability and final rates are confirmed by the hotel.</p>
+
+      </form>
+    </div>
+    <div class="booking-box">
+      <h3 style="color:var(--wine)">Quick Booking</h3>
+      <p><b>Phone:</b> <a href="tel:+254745396385">+254 745 396 385</a></p>
+      <p><b>WhatsApp:</b> <a href="https://wa.me/254745396385">Chat with the hotel</a></p>
+      <p><b>Check-in:</b> 12:00 noon</p>
+      <p><b>Check-out:</b> 10:00 am</p>
+      <p><b>Location:</b> Along Kisumu–Siaya Road, Mwisho Mwisho, Siaya.</p>
+      <a class="btn" href="https://www.google.com/maps/dir/?api=1&destination=0.056239,34.291631">Get Directions</a>
+    </div>
+  </div>
+</section>
+
+<section id="rooms">
+  <div class="section-head"><h2>Accommodation & Rates</h2><p>Published rates supplied for the hotel website.</p></div>
+  <div class="rate-wrap">
+    <table>
+      <thead><tr><th>Room Category</th><th>Bed Only</th><th>Bed & Breakfast</th></tr></thead>
+      <tbody>
+        <tr><td>Regular Single</td><td>KSh 1,000</td><td>—</td></tr>
+        <tr><td>Regular Standard Double</td><td>KSh 1,500</td><td>—</td></tr>
+        <tr><td>VIP Standard</td><td>KSh 2,500 single</td><td>KSh 3,000 single / KSh 3,500 double</td></tr>
+        <tr><td>VIP Deluxe</td><td>KSh 3,000 single</td><td>KSh 3,500 single / KSh 4,000 double</td></tr>
+        <tr><td>VIP Executive</td><td>KSh 4,000 single</td><td>KSh 4,500 single / KSh 5,000 double</td></tr>
+        <tr><td>VIP Supreme</td><td>From KSh 5,000</td><td>Contact hotel</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="note">Rates and room availability may change. Please call or WhatsApp before arrival to confirm availability and the applicable rate.</div>
+</section>
+
+<section class="feature-band">
+  <div class="section-head"><h2>A Convenient Base in Siaya</h2><p>Easy to find, welcoming for travellers, and suitable for both business and leisure visits.</p></div>
+  <div class="cards">
+    <article class="card"><img src="room-standard.jpg" alt="Standard hotel room"><div class="pad"><h3>Comfortable Rooms</h3><p>Practical accommodation for travellers and local guests.</p></div></article>
+    <article class="card"><img src="massage.jpg" alt="Massage and relaxation chairs"><div class="pad"><h3>Relaxation</h3><p>Take time to unwind with the hotel's relaxation facilities.</p></div></article>
+    <article class="card"><img src="grounds.jpg" alt="Hotel grounds"><div class="pad"><h3>Hotel Grounds</h3><p>A spacious setting with greenery around the property.</p></div></article>
+  </div>
+</section>
+
+<section id="gallery">
+  <div class="section-head"><h2>Gallery</h2><p>A glimpse of Mwisho Tourist Hotel, our grounds and services.</p></div>
+  <div id="galleryGrid" class="gallery" aria-live="polite"></div><p class="gallery-help">New photos can be added later by placing the image in the website folder and adding one line to <b>gallery-data.js</b>. A simple step-by-step guide is included in <b>HOW_TO_UPDATE_GALLERY.txt</b>.</p>
+</section>
+
+
+<section id="conference">
+<div class="section-head"><h2>Conference Packages</h2><p>Professional meeting solutions at Mwisho Tourist Hotel, Siaya. Choose a package and request a quotation.</p></div>
+<div class="package-grid">
+<article class="package"><h3>1. Full Day</h3><p>Full working-day conference package.</p><ul><li>10:00 am tea & snacks</li><li>Buffet lunch: 3 proteins, 3 starches, vegetables, fruits & soft drink</li><li>Writing materials</li><li>Projector</li><li>2 × 500ml drinking water</li><li>Mints</li><li>4:00 pm tea & bites</li></ul><a class="btn" href="#quote">Request Quotation</a></article>
+<article class="package"><h3>2. Half Day</h3><p>Focused half-day conference package.</p><ul><li>10:00 am tea & snacks</li><li>Buffet lunch: 3 proteins, 3 starches, vegetables, fruits & soft drink</li><li>Writing materials</li><li>Projector</li><li>1 × 500ml drinking water</li><li>Mints</li></ul><a class="btn" href="#quote">Request Quotation</a></article>
+<article class="package"><h3>3. Full Breakfast Meeting</h3><p>Breakfast meeting package.</p><ul><li>Full breakfast meeting</li><li>Maximum 4 hours</li><li>Meeting setup as agreed</li></ul><a class="btn" href="#quote">Request Quotation</a></article>
+<article class="package"><h3>4. Tea & Snack Breakfast Meeting</h3><p>Light breakfast meeting package.</p><ul><li>Tea & snack breakfast meeting</li><li>Maximum 4 hours</li><li>Meeting setup as agreed</li></ul><a class="btn" href="#quote">Request Quotation</a></article>
+<article class="package"><h3>5. Hall Hire</h3><p>Venue-only option for meetings and functions.</p><ul><li>Hall hire</li><li>Seating arrangement according to requirement</li></ul><a class="btn" href="#quote">Request Quotation</a></article>
+<article class="package"><h3>6. Projector Hire</h3><p>Projector hire for meetings and presentations.</p><ul><li>Projector hire</li><li>Presentation use</li></ul><a class="btn" href="#quote">Request Quotation</a></article>
+<article class="package"><h3>7. Full Board</h3><p>Accommodation and meals package.</p><ul><li>Full board arrangement</li><li>Accommodation & meals</li><li>Details confirmed by hotel</li></ul><a class="btn" href="#quote">Request Quotation</a></article>
+<article class="package"><h3>8. Half Board</h3><p>Accommodation and meals package.</p><ul><li>Half board arrangement</li><li>Accommodation & meals</li><li>Details confirmed by hotel</li></ul><a class="btn" href="#quote">Request Quotation</a></article>
+</div></section>
+
+<section id="quote">
+<div class="section-head"><h2>Request a Conference Quotation</h2><p>Tell us about your meeting or event. We will prepare a customized quotation based on your requirements and number of delegates.</p></div>
+<div class="quote-grid">
+<div class="quote-box">
+<div class="quote-note"><b>Flexible & Negotiable:</b> Conference packages can be customized. For example, you may choose fewer proteins, fewer starches or other requirements, and the quotation will be adjusted accordingly.</div>
+<form id="quoteForm">
+<div class="quote-form">
+<div><label>Name / Organisation</label><input id="org" required placeholder="Name or organisation"></div>
+<div><label>Phone Number</label><input id="qphone" required placeholder="07xx xxx xxx"></div>
+<div class="full"><label>Event / Conference Dates</label><div class="date-list"><input id="date1" type="date" required><input id="date2" type="date"><input id="date3" type="date"><input id="date4" type="date"></div><small>You can select 1 to 4 dates.</small></div>
+<div><label>Expected Guests / Delegates</label><input id="qguests" type="number" min="1" required placeholder="e.g. 30"></div>
+<div><label>Package</label><select id="qpackage"><option>Full Day</option><option>Half Day</option><option>Full Breakfast Meeting</option><option>Tea & Snack Breakfast Meeting</option><option>Hall Hire</option><option>Projector Hire</option><option>Full Board</option><option>Half Board</option></select></div>
+<div class="full"><label>Customized Buffet / Service Requirements</label><textarea id="qrequest" placeholder="Example: 2 proteins, 2 starches, vegetables only; include fruits; 1 bottle water; projector; writing materials, etc."></textarea></div>
+<div class="full"><label>Additional Information</label><textarea id="qextra" placeholder="Arrival/departure, accommodation, seating arrangement, special setup, branding, meals, or any other request."></textarea></div>
+</div>
+<div class="contact-choice">
+<button class="btn" type="button" id="waBtn">Request via WhatsApp</button>
+<button class="btn" type="button" id="emailBtn">Request via Email</button>
+</div>
+</form></div>
+<div class="quote-box"><h3 style="color:var(--wine)">Customized quotations</h3>
+<p>Every conference quotation can be tailored according to the client's preferred menu, services, number of delegates, number of days and other requirements.</p>
+<p><b>WhatsApp:</b><br>+254 745 396 385</p>
+<p><b>Email:</b><br>mwishotouristhotel@gmail.com</p>
+<p><b>Location:</b><br>Along Kisumu–Siaya Road, Siaya Town.</p>
+</div></div></section><section class="contact" id="contact">
+  <div class="section-head"><h2>Book or Enquire</h2><p>Call or WhatsApp us for room availability, reservations, conference arrangements, event ground hire, transport and other enquiries.</p></div>
+  <div class="contact-grid">
+    <div class="contact-card">
+      <h3>Find Us</h3>
+      <p><b>Location:</b><br>Along Kisumu–Siaya Road, Mwisho Mwisho, Siaya Town (near Siaya Town Shell Service Station)</p>
+      <p><b>Phone / WhatsApp:</b><br><a href="tel:+254745396385">+254 745 396 385</a> / <a href="tel:+254113088996">0113 088 996</a></p>
+      <p><b>Email:</b><br><a href="mailto:mwishotouristhotel@gmail.com">mwishotouristhotel@gmail.com</a></p>
+      <p><b>Hours:</b> Open 24/7</p>
+    </div>
+    <div class="contact-card mapbox">
+      <h3>Ready to stay with us?</h3>
+      <p>Contact the hotel directly to confirm availability, rates and arrangements before travelling.</p>
+      <a class="btn" href="https://wa.me/254745396385">WhatsApp Us</a>
+      <a class="btn alt" href="tel:+254745396385">Call Now</a>
+    </div>
+  </div>
+
+<div style="margin-top:24px">
+  <iframe class="map-frame" loading="lazy" allowfullscreen
+    src="https://www.google.com/maps?q=0.056239,34.291631&z=17&output=embed"></iframe>
+  <p class="small" style="text-align:center">Mwisho Tourist Hotel • Along Kisumu–Siaya Road</p>
+</div>
+</section>
+
+<footer>© 2026 Mwisho Tourist Hotel • Taste Of Class • Siaya, Kenya</footer>
+
+<script>
+const rates = {
+  "Regular Single": 1000,
+  "Regular Standard Double": 1500,
+  "VIP Standard": 2500,
+  "VIP Deluxe": 3000,
+  "VIP Executive": 4000,
+  "VIP Supreme": 5000
+};
+function updateEstimate(){
+  const a = document.getElementById('checkin').value;
+  const b = document.getElementById('checkout').value;
+  const room = document.getElementById('room').value;
+  let nights = 0;
+  if(a && b){
+    const d1 = new Date(a+"T00:00:00"), d2 = new Date(b+"T00:00:00");
+    nights = Math.max(0, Math.round((d2-d1)/86400000));
+  }
+  document.getElementById('nights').textContent = nights;
+  document.getElementById('roomTotal').textContent = (nights * (rates[room]||0)).toLocaleString();
+}
+['checkin','checkout','room'].forEach(id => document.getElementById(id).addEventListener('change', updateEstimate));
+
+document.getElementById('bookingForm').addEventListener('submit', function(e){
+  e.preventDefault();
+  const name = document.getElementById('guestName').value.trim();
+  const phone = document.getElementById('guestPhone').value.trim();
+  const checkin = document.getElementById('checkin').value;
+  const checkout = document.getElementById('checkout').value;
+  const guests = document.getElementById('guests').value;
+  const room = document.getElementById('room').value;
+  const request = document.getElementById('request').value.trim() || 'None';
+  const nights = document.getElementById('nights').textContent;
+  const total = document.getElementById('roomTotal').textContent;
+  const msg = `Hello Mwisho Tourist Hotel,%0A%0AI would like to make a booking enquiry.%0A%0AName: ${encodeURIComponent(name)}%0APhone: ${encodeURIComponent(phone)}%0ACheck-in: ${encodeURIComponent(checkin)}%0ACheck-out: ${encodeURIComponent(checkout)}%0ANights: ${encodeURIComponent(nights)}%0AGuests: ${encodeURIComponent(guests)}%0ARoom: ${encodeURIComponent(room)}%0AEstimated room total: KSh ${encodeURIComponent(total)}%0AAdditional request: ${encodeURIComponent(request)}%0A%0APlease confirm availability and the applicable rate.`;
+  window.open('https://wa.me/254745396385?text=' + msg, '_blank');
+});
+</script>
+<script>
+(function(){
+function val(id){return document.getElementById(id).value.trim();}
+function dates(){return ['date1','date2','date3','date4'].map(val).filter(Boolean).join(', ');}
+function message(){
+return `Hello Mwisho Tourist Hotel,
+
+I would like to request a conference quotation.
+
+Name/Organisation: ${val('org')}
+Phone: ${val('qphone')}
+Conference date(s): ${dates()}
+Expected delegates: ${val('qguests')}
+Package: ${val('qpackage')}
+
+Customized buffet/service requirements:
+${val('qrequest') || 'None specified'}
+
+Additional information:
+${val('qextra') || 'None specified'}
+
+Please prepare a customized quotation based on the above requirements.`;
+}
+document.getElementById('waBtn').addEventListener('click',function(){
+window.open('https://wa.me/254745396385?text='+encodeURIComponent(message()),'_blank');
+});
+document.getElementById('emailBtn').addEventListener('click',function(){
+const subject='Conference Quotation Request - Mwisho Tourist Hotel';
+window.location.href='mailto:mwishotouristhotel@gmail.com?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(message());
+});
+})();
+</script>
+<script src="gallery-data.js"></script>
+<script>
+(function(){
+  const grid=document.getElementById('galleryGrid');
+  if(!grid || !Array.isArray(window.MWISHO_GALLERY)) return;
+  grid.innerHTML=window.MWISHO_GALLERY.map(item=>`<figure><img src="${item.file}" alt="${item.alt||'Mwisho Tourist Hotel'}" loading="lazy"><figcaption>${item.caption||''}</figcaption></figure>`).join('');
+})();
+</script>
+</body>
+</html>
